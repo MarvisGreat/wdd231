@@ -192,20 +192,43 @@ strong {
 
 .courses {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
     padding: 0;
     margin: 15px 10px;
     list-style: none;
 }
 
 .courses li {
+    display: flex;
+    flex-direction: column;
     padding: 12px 10px;
     text-align: center;
-    font-weight: bold;
-    border-radius: 5px;
+    justify-content: space-between;
+    border-radius: 8px;
     border: 1px solid var(--border);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.courses div h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.courses div p {
+    margin: 0 0 10px 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+.courses div p:last-child {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    opacity: 0.9;
 }
 
 .courses li:hover {
@@ -218,10 +241,12 @@ strong {
 }
 
 .courses li.not-completed {
-    background-color: var(--bg-dark);
-    color: var(--text-secondary);
+    background-color: transparent;
+    color: var(--text-primary);
     border-style: dashed;
     border: 1px solid var(--accent);
+    border-left: 6px solid var(--primary); 
+    border-radius: 8px;
 }
 
 

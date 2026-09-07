@@ -55,4 +55,16 @@
         gap: 10px;
         margin-bottom: 20px;
     }
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .courses li { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 }
