@@ -113,6 +113,129 @@ header span {
     border-bottom-color: var(--primary);
 }
 
+h1 {
+    padding: 5px 0 5px 10px;
+    font-size: small;
+}
+
+h1,
+h2,
+h3,
+strong {
+    color: var(--text-primary);
+}
+.about {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    box-sizing: border-box;
+    border: 2px solid var(--border);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    background-color: var(--bg-dark-secondary);
+    color: var(--text-secondary);
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.about:hover {
+    border-color: rgba(0, 183, 255, 0.4);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 255, 212, 0.08);
+}
+
+.about h2 {
+    display: flex;
+    background-color: var(--secondary);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.about p {
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+}
+
+.filter-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;   
+    gap: 8px;
+}
+
+#filter button {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--secondary);
+    color: var(--text-primary);
+}
+
+#filter button:hover {
+    background-color: var(--secondary-hover);
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 8px;
+    padding: 0;
+    margin: 15px 0;
+    list-style: none;
+}
+
+.courses li {
+    padding: 12px 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.courses li:hover {
+    transform: translateY(-2px);
+}
+
+.courses li.completed {
+    background-color: var(--secondary);
+    color: #ffffff;
+}
+
+.courses li.not-completed {
+    background-color: var(--bg-dark);
+    color: var(--text-secondary);
+    border-style: dashed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     text-align: center;
     color: var(--text-primary);
@@ -134,10 +257,11 @@ footer {
     border-radius: 22px;
     width: 44px;
     height: 44px;
+    background-color: var(--accent);
+    margin-top: 10px;
 }
 
 .logo img {
-    padding-top: 10px;
     width: 22px;
     height: 22px;
 }
