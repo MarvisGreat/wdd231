@@ -168,26 +168,37 @@ strong {
 
 .filter-button {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
     padding: 20px;   
     gap: 8px;
 }
 
-#filter button {
-    flex: 1;
+.filter-button button {
+    background-color: var(--bg-card);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
+    border-radius: 6px;
     padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 5px;
+    font-weight: 500;
     cursor: pointer;
-    background-color: var(--secondary);
-    color: var(--text-primary);
+    transition: all 0.25s ease-in-out;
 }
 
-#filter button:hover {
-    background-color: var(--secondary-hover);
+.filter-button button:hover {
+    background-color: var(--secondary);
+    color: var(--text-primary);
+    border-color: var(--secondary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(84, 101, 255, 0.3);
+}
+
+.filter-button button.active {
+    background-color: var(--secondary);
+    color: var(--text-primary);
+    border-color: var(--secondary-hover);
+    font-weight: bold;
 }
 
 .courses {
@@ -236,19 +247,24 @@ strong {
 }
 
 .courses li.completed {
-    background-color: var(--secondary);
-    color: #ffffff;
+    background-color: var(--bg-card);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    border-left: 6px solid var(--se)
 }
 
 .courses li.not-completed {
     background-color: transparent;
     color: var(--text-primary);
     border-style: dashed;
-    border: 1px solid var(--accent);
+    border: 1px solid var(--primary);
     border-left: 6px solid var(--primary); 
     border-radius: 8px;
 }
 
+.courses li p {
+    color: var(--text-primary);
+}
 
 
 

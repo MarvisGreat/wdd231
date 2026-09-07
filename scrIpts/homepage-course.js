@@ -87,6 +87,7 @@ const courses = [
 
 const coursesContainer = document.querySelector('.courses');
 const totalCreditsElement = document.querySelector('#total-credits');
+const filterButtons = document.querySelectorAll('.filter-button button');
 
 function displayCourses(courseList) {
     coursesContainer.innerHTML = "";
@@ -131,4 +132,11 @@ document.querySelector('#cse-btn').addEventListener('click', () => {
 document.querySelector('#wdd-btn').addEventListener('click', () => {
     const wddCourses = courses.filter(course => course.subject === 'WDD');
     displayCourses(wddCourses);
+});
+
+filterButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        e.target.classList.add('active');
+    });
 });
