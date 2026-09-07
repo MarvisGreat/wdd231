@@ -79,7 +79,7 @@ const courses = [
 ]
 
 
-const coursesContainer = document.querySelector('.courses')
+const coursesContainer = document.querySelector('.courses');
 const totalCreditsElement = document.querySelector('#total-credits');
 
 function displayCourses(courseList) {
@@ -106,3 +106,17 @@ function displayCourses(courseList) {
 }
 
 displayCourses(courses);
+
+document.querySelector('#all-btn').addEventListener('click', () => {
+    displayCourses(courses);
+});
+
+document.querySelector('#cse-btn').addEventListener('click', () => {
+    const cseCourses = courses.filter(course => course.subject === 'CSE');
+    displayCourses(cseCourses);
+});
+
+document.querySelector('#wdd-btn').addEventListener('click', () => {
+    const wddCourses = courses.filter(course => course.subject === 'WDD');
+    displayCourses(wddCourses);
+});
