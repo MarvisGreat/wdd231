@@ -63,7 +63,7 @@ header span {
 }
 .navigation a:hover {
     background-color: blue ;
-    color: black;
+    color: white;
 }
 
 .navigation li.current {
