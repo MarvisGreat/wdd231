@@ -5,7 +5,7 @@
 :root {
     /* Brand colors */
     --primary: #00FFD4;
-    --secondary: #5465FF;
+    --secondary: #4b5efc;
     --accent: #D2DDFF;
 
     /* Backgrounds */
@@ -265,19 +265,6 @@ strong {
 .courses li p {
     color: var(--text-primary);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     text-align: center;
