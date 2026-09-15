@@ -1,0 +1,39 @@
+{
+    "family-name" : "Nwachukwu Family",
+    "relocation-date": "2025-06-21",
+    "number-family": 6,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Marvellous",
+            "gender": "male",
+            "birthdate": "21-02-2008"
+        },
+        {
+            "name": "Success",
+            "gender": "Female",
+            "birthdate": "08-08-2003"
+        },
+        {
+            "name": "Gift",
+            "gender": "Female",
+            "birthdate": "23-10-2005"
+        },
+        {
+            "name": "Joy",
+            "gender": "Female",
+            "birthdate": "12-10-2011"
+        },
+        {
+            "name": "Fidelis",
+            "gender": "male",
+            "birthdate": "15-05-1976"
+        },
+        {
+            "name": "Ada",
+            "gender": "Female",
+            "birthdate": "23-12-1982"
+        }
+    ]
+}
+

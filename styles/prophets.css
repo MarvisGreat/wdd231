@@ -1,0 +1,64 @@
+* {
+    font-family: "josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+
+
+h2 {
+    font-size: 30px;
+    color: blueviolet;
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: grey;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #777;
+    
+}
+
+section {
+    box-sizing: border-box;
+    background-color: #ccc;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    max-width: 325px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #111;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+}
