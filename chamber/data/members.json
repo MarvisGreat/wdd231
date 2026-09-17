@@ -1,0 +1,92 @@
+[
+    {
+        "companyName": "Shoprite Owerri",
+        "companyAddress": "Egbu Rd, Owerri 460241, Imo, Nigeria",
+        "companyPhoneNumber": "09014000001",
+        "companyWebsiteURL": "https://shoprite.ng/",
+        "imageFileName": "shoprite-img.jpg",
+        "membershipLevel": 3,
+        "rating": 4.2,
+        "tagline": "Your One-Stop Destination for Daily Essentials."
+    },
+    {
+        "companyName": "AutoSol Africa",
+        "companyAddress": "Divine Lodge Eziobodo",
+        "companyPhoneNumber": "07075854417",
+        "companyWebsiteURL": "https://marvisgreat.github.io/wdd131/project/index.html",
+        "imageFileName": "hero.jpg",
+        "membershipLevel": 3,
+        "rating": 4.1,
+        "tagline": "Smart Vehicle Diagnostics and Reliable Auto Solutions."
+    },
+    {
+        "companyName": "Everyday Supermarket",
+        "companyAddress": "45 MCC, Uratta Road, Ikenegbu",
+        "companyPhoneNumber": "08037402452",
+        "companyWebsiteURL": "https://everydaygroup.com.ng/",
+        "imageFileName": "everyday-supermarket.jpg",
+        "membershipLevel": 2,
+        "rating": 4.2,
+        "tagline": "Fresh Groceries and Quality Goods Every Day."
+    },
+    {
+        "companyName": "Market Square Supermarket",
+        "companyAddress": "Owerri - Orlu Rd, Owerri",
+        "companyPhoneNumber": "08000000000",
+        "companyWebsiteURL": "https://marketsquareng.com/",
+        "imageFileName": "market-square.jpg",
+        "membershipLevel": 3,
+        "rating": 4.2,
+        "tagline": "Find More, Pay Less for All Your Shopping."
+    },
+    {
+        "companyName": "Sekani Mall",
+        "companyAddress": "Dominion City Road, Eziobodo, FUTO Road",
+        "companyPhoneNumber": "09040570782",
+        "companyWebsiteURL": "https://sekanimall.com",
+        "imageFileName": "sekani-mall.jpg",
+        "membershipLevel": 2,
+        "rating": 4.3,
+        "tagline": "Convenient Local Shopping Right Near Campus."
+    },
+    {
+        "companyName": "Saint Sooki Wears",
+        "companyAddress": "De Brown Lodge, Eziobodo",
+        "companyPhoneNumber": "09129460811",
+        "companyWebsiteURL": "https://saintsookiwears.business.site",
+        "imageFileName": "saint-sooki-wears.jpg",
+        "membershipLevel": 1,
+        "rating": 5.0,
+        "tagline": "Trendy Fashion and Quality Apparel for Every Style."
+    },
+    {
+        "companyName": "Orie Eziobodo Market",
+        "companyAddress": "Eziobodo Market Square, Eziobodo",
+        "companyPhoneNumber": "08012345678",
+        "companyWebsiteURL": "https://eziobodo-market.org",
+        "imageFileName": "orie-eziobo-market.jpg",
+        "membershipLevel": 1,
+        "rating": 3.7,
+        "tagline": "Authentic Local Produce at the Heart of the Community."
+    },
+    {
+        "companyName": "BK Supermarket",
+        "companyAddress": "No 5 All Saints Street, Eziobodo",
+        "companyPhoneNumber": "07065781917",
+        "companyWebsiteURL": "https://bksupermarket.business.site",
+        "imageFileName": "bk-supermarket.jpg",
+        "membershipLevel": 2,
+        "rating": 5.0,
+        "tagline": "24-hour retail supermarket."
+    },
+    {
+        "companyName": "G.B.A Supermarket",
+        "companyAddress": "Poly Road, Beside De Glen Hotel",
+        "companyPhoneNumber": "08100281341",
+        "companyWebsiteURL": "https://gbasupermarket.business.site",
+        "imageFileName": "gba-supermarket.jpg",
+        "membershipLevel": 2,
+        "rating": 4.7,
+        "tagline": "convenience store."
+    }
+]
