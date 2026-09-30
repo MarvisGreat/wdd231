@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+main {
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+main p {
+    font-size: 20px;
+}
+
+figcaption {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    /* Makes "clear sky" display as "Clear Sky" */
+    text-align: center;
+    color: #333;
+}
+
+#weather-icon {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    font-size: 20px;
+}
