@@ -61,10 +61,10 @@
         gap: 15px;
     }
 
-    .courses li { 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+    .about img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
