@@ -408,12 +408,14 @@ fieldset {
 }
 
 .membership-card button:hover {
-    background-color: var(--text-primary);
-    color: var(--text-light);
+    background-color: var(--accent-color);
+    color: var(--text-primary);
 }
 
 .membership-card:hover {
     transform: scale(1.03);
+    background-color: var(--text-primary);
+    color: var(--accent-color);
 }
 
 
