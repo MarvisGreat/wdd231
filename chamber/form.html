@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Product Reveiw</title>
+     <meta name="description" content="This is going to serve as a form to recieve costumers review of a product">
+     <meta name="author" content="Marvellous Osita Nwachukwu">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="styles/form.css">
+     <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+     <header>
+          <h1>Product Review</h1>
+     </header>
+     <main>
+          <form method="get" action="review.html" class="pg">
+
+               <fieldset>
+                    <legend>Product Name<span class="required">*</span></legend>
+                    <label for="product-select" class="sr-only"></label>
+                    <select name="product" id="product-select" required>
+                         <option value="" disabled selected>Please select a product...</option>
+                    </select>
+               </fieldset>
+               <fieldset>
+                    <legend>Overall Rating<span class="required">*</span></legend>
+                    <div class="rating-container">
+
+                         <label for="rating1" class="rating-item">&star;<br><input type="radio" name="rating" id="rating1" value="1" required></label>
+
+                         <label for="rating2" class="rating-item">&star;&star;<br><input type="radio" name="rating" id="rating2" value="2" required></label>
+
+                         <label for="rating3" class="rating-item">&star;&star;&star;<br><input type="radio" name="rating" id="rating3" value="3" required></label>
+
+                         <label for="rating4" class="rating-item">&star;&star;&star;&star;<br><input type="radio" name="rating" id="rating4" value="4" required></label>
+
+                         <label for="rating5" class="rating-item">&star;&star;&star;&star;&star;<br><input type="radio" name="rating" id="rating5" value="5" required></label>
+
+                    </div>
+               </fieldset>
+
+               <fieldset>
+                    <legend>Date of installation<span class="required">*</span></legend>
+                    <label for="installation-date" class="sr-only">Select Installation Date</label>
+                    <input type="date" name="installation-date" id="installation-date" required>
+               </fieldset>
+               <fieldset>
+                    <legend>Which feature did you find useful in the product? <span class="italic">(Select all thatapply)</span></legend>
+                    <label for="feat-durability"><input type="checkbox" name="features" id="feat-durability" value="feature1"> Durability</label>
+                    <label for="feat-ease"><input type="checkbox" name="features" id="feat-ease" value="feature2"> Ease of use</label>
+                    <label for="feat-perf"><input type="checkbox" name="features" id="feat-perf" value="feature3"> Performance</label>
+                    <label for="feat-design"><input type="checkbox" name="features" id="feat-design" value="feature4"> Design</label>
+               </fieldset>
+               <fieldset>
+                    <legend>Written Review <span class="italic">(Optional)</span></legend>
+                    <label for="review" class="sr-only"></label>
+                    <textarea name="review" id="review" rows="5" cols="50"
+                         placeholder="Share your experience with the product..."></textarea>
+               </fieldset>
+               <fieldset>
+                    <legend>Your Name <span class="italic">(Optional)</span></legend>
+                    <label for="name" class="sr-only"></label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name...">
+             
+               </fieldset>
+
+               <input type="submit" value="Submit Review">
+
+
+
+
+
+          </form>
+     </main>
+     <footer>
+          <p>&copy;<span id="currentyear"></span>- Marvellous Osita Nwachukwu - Nigeria</p>
+          <p><span id="lastModified"></span></p>
+     </footer>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eziobodo Chamber of Commerce Join Page</title>
+    <meta name="description" content="This website is going to serve as an E-Commerce site for the city of Eziobodo.">
+    <meta name="author" content="Marvellous Nwachukwu">
+
+    <meta property="og:title" content="Eziobod0 Chamber of Commerce Site">
+    <meta property="og:description" content="Welcome to Eziobod0 Chamber of Commerce Site. This serves as a
+    multipurpose space for both buyers and sellers.">
+    <meta property="og:image" content="https://marvisgreat.github.io/wdd231/chamber/images/eziobodo-logo.svg">
+    <meta property="og:url" content="https://marvisgreat.github.io/wdd231/chamber/directory.html">
+
+    <link rel="icon" href="eziobo-favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory-small.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <span class="header"><img src="images/eziobodo-logo.svg" alt="eziobodo logo"></span>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="join.html">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+        <span id="bg-change" class="bg-color"><img src="images/circle-half.svg" alt="Dark or lightmode display"></span>
+        <button id="ham-btn" aria-label="Toggle Navigation Button" class="hamburger"></button>
+    </header>
+    <main>
+        <h1>Join Us <span class="color">Today</span></h1>
+        <div class="membership-grid">
+            
+            <form method="GET" action="thanks.html" class="design">
+                <h2>Membership Application Form</h2>
+                <label>First Name<span class="required">*</span>
+                    <input type="text" name="first"  autocomplete="given-name" title="Your First Name" required>
+                </label>
+                
+                <label>Last Name<span class="required">*</span>
+                    <input type="text" name="last" autocomplete="family-name" title="Your Last Name" required>
+                </label>
+                
+                <label>Organization Title<span class="required">*</span>
+                    <input type="text" name="organization-title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" title="Your Organization Title (minimum 7 characters, letters, hyphens, and spaces only)" required>
+                </label>
+                
+                <label>Mobile Phone Number<span class="required">*</span>
+                    <input type="tel" name="phone" autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" required>
+                </label>
+                
+                <label>Email Address
+                    <input type="email" name="email" placeholder="johndoe@email.com" title="Your Email" autocomplete="email" required>
+                </label>
+                
+                <label>Organization Name<span class="required">*</span>
+                    <input type="text" name="org-name" title="Your Organization Name" autocomplete="organization" required>
+                </label>
+
+                <fieldset>
+                    <legend>Membership level<span class="required">*</span></legend>
+                    <label><input type="radio" name="membership" value="np" required>Non-Profit</label>
+                    <label><input type="radio" name="membership" value="bronze" required>Bronze</label>
+                    <label><input type="radio" name="membership" value="silver" required>Silver</label>
+                    <label><input type="radio" name="membership" value="gold" required>Gold</label>
+                </fieldset>
+
+                <label>Organization Description
+                    <textarea name="org-description" title="Your Organization Description" placeholder="Input your organization description..." required></textarea>
+                </label>
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+
+                <button type="submit">Join Us Now</button>
+
+            </form>
+        
+            
+            <section class="membership-cards">
+                <h2>Membership Levels</h2>
+                <div class="membership-card">
+                    <h3>Non Profit Membership Level</h3>
+                    <button class="card-button" data-level="np">Learn More</button>
+                </div>
+
+                <div class="membership-card">
+                    <h3>Bronze Membership Level</h3>
+                    <button class="membership-card-button" data-level="bronze">Learn More</button>
+                </div>
+
+                <div class="membership-card">
+                    <h3>Silver Membership Level</h3>
+                    <button class="membership-card-button" data-level="silver">Learn More</button>
+                </div>
+
+                <div class="membership-card">
+                    <h3>Gold Membership Level</h3>
+                    <button class="membership-card-button" data-level="gold">Learn More</button>
+                </div>
+            </section>
+
+            <dialog id="membership-modal">
+                <button id="close-modal" aria-label="close modal">❌</button>
+                <div id="modal-content"></div>
+            </dialog>
+        </div>
+
+    </main>
+    <footer>
+        <section class="footer-cards">
+            <p><b>Eziobodo Chamber of Commerce</b></p>
+            <p>21 Divine Street, FUTO Rd</p>
+            <p>info@eziobodotalks.org</p>
+            <p>(234) 707 5854 417</p>
+        </section>
+        <section class="footer-cards">
+            <div class="logo">
+                <a href="https://github.com/MarvisGreat" target="_blank" rel="noopener">
+                    <img src="../images/github.svg" alt="github logo image" width="16" height="16">
+                </a>
+                <a href="https://www.linkedin.com/in/marvisgreat-profile" target="_blank" rel="noopener">
+                    <img src="../images/linkedin.svg" alt="linkedln logo image" width="16" height="16">
+                </a>
+                <a href="https://www.facebook.com/share/1AkUseoeu4/" target="_blank" rel="noopener">
+                    <img src="../images/facebook.svg" alt="facebook logo image" width="16" height="16">
+                </a>
+                <a href="https://x.com/Lapez_fundhz" target="_blank" rel="noopener">
+                    <img src="../images/twitter-x.svg" alt="X formerly twitter logo image" width="16" height="16">
+                </a>
+            </div>
+        </section>
+        <section class="footer-cards">
+            <p>WDD231 Class Project</p>
+            <p>Marvellous Osita Nwachukwu - Owerri, Nigeria</p>
+            <p>&copy;<span id="currentyear"> </span>- Eziobodo Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </section>
+    </footer>
+
+</body>
+
+</html>

@@ -34,6 +34,10 @@
     font-size: 1.2rem;
     }
 
+    h1 {
+        text-align: center;
+    }
+
     .navigation ul {
         display: flex;
         justify-content: space-around;
@@ -105,5 +109,31 @@
         font-size: 15px;
         order: 4;
     }
+
+  .membership-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;                      
+    align-items: start;   
+    background-color: #F1F5F9;   
+    margin: 10px 0;    
+    border-radius: 10px;
+    border: 2px solid var(--primary-color);   
+  }
+
+
+  .design,
+  .membership-cards {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .design,
+  .membership-cards {
+    border: none;
+  }
+
+
+  
 
 }
